@@ -1,0 +1,3 @@
+ump_test_controller:
+    resource: "@UmpTutoBundle/Controller/TestController.php"
+    type: annotation

@@ -1,0 +1,16 @@
+{% extends 'ClarolineCoreBundle:Desktop:layout.html.twig' %}
+{% block section_content %}
+<h3>Outil ump tuto </h3>
+<table>
+{%for item in items %}
+<tr>
+    <td>
+        {{ item.getId()}}
+    </td>
+    <td>
+        {{ item.getName()}}
+    </td>
+</tr>
+{% endfor %}
+</table>
+{% endblock %}

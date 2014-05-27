@@ -1,0 +1,12 @@
+plugin:
+    has_options: false
+
+    widgets:
+      - name: ump_tuto_widget
+        is_configurable: false
+    
+    tools:
+      - name: ump_tuto_tool
+        class: icon-gamepad
+        is_displayable_in_workspace: true
+        is_displayable_in_desktop: true
